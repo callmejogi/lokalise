@@ -1,5 +1,6 @@
 body{
     font-family: Graphik LC TT,sans-serif;
+    box-sizing: border-box;
 }
 .link{
     margin-right: 42px;
@@ -22,3 +23,154 @@ body{
     padding-top: 39px;
     padding-bottom: 36px;
 }
+
+.menu{
+    display: flex;
+}
+
+.logo{
+    width: 130px;
+    height: 28px;
+}
+
+.image{
+    margin-top: 34px;
+    margin-right: 51px;
+    height: 28px;
+    text-decoration: none;
+}
+
+.button{
+    text-decoration: none;
+    display: block;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    border: 1px solid gray;
+    width: 118px;
+    background-color: white;
+    margin-right: 10px;
+    height: 43px;
+}
+
+.holder{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.try{
+    background-color: #FF6336;
+    color: #FFFFFF;
+    border: none;
+    width: 120px;
+    line-height: 45px;
+    margin-right: 51px;
+    height: 45px;
+}
+
+.header{
+    display: flex;
+    width: 1330px;
+    justify-content:space-between;
+    border-bottom: 1px solid #EFEFEF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 129px;
+}
+
+.box{
+    width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    color:#000000;
+    width: 552px;
+    margin-bottom: 51px;
+}
+
+.page{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color:#000000;
+    width: 471px;
+    margin-bottom: 50px;
+}
+
+.free{
+    margin-right: 10px;
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.demo{
+    width: 158px;
+    height: 58px;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+.second{
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.feat{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color:#000000;
+    width: 369px;
+}
+
+.flex{
+    display: flex;
+    padding-bottom: 172px;
+}
+
+.container{
+    background-color: #FF9C7D;
+    margin-bottom: 90px;
+    padding-bottom: 104px;
+}
+
+.tool{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    width: 720px;
+    padding-top: 108px;
+    padding-bottom: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.icon{
+    text-decoration: none;
+    margin-right: 103px;
+    display: block;
+    width: 16.6%;
+}
+
+.icon:last-child{
+    margin-right: 0;
+}
+
+.partners{
+    display: flex;
+}
+
+.virgin{
+    text-align: center;
+}
+
+
