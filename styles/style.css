@@ -173,4 +173,55 @@ body{
     text-align: center;
 }
 
+.control{
+    margin-left: 0;
+    margin-right: 0;
+    width: 493px;
+    padding-top: 241px;
+    padding-bottom: 30px;
+}
+
+.add{
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.start{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color:#000000;
+    text-decoration: none;
+    width: 96px;
+    display: block;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two{
+    flex-direction: row-reverse;
+    margin-top: 250px;
+}
+
+.text{
+    margin-right: 70px;
+    margin-left: 138px;
+    margin-top: 151px;
+}
+
+.time{
+    width: 379px;
+    padding-top: 0;
+}
+
+.cycle{
+    width: 450px;
+}
+
+
 
