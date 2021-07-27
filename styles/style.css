@@ -206,6 +206,7 @@ body{
 .two{
     flex-direction: row-reverse;
     margin-top: 250px;
+    margin-bottom: 250px;
 }
 
 .text{
@@ -223,5 +224,44 @@ body{
     width: 450px;
 }
 
+.three{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+.ensure{
+    width: 397px;
+}
+
+.use{
+    width: 520px;
+}
+
+.wrap{
+    margin-left: 0;
+    margin-top: 161px;
+}
+
+.less{
+    width: 348px;
+}
+
+.me{
+    margin-top: 123px;
+    margin-right: 0;
+}
+
+.scam{
+    height: 577px;
+    margin-left: 0;
+}
+
+.four{
+    margin-bottom: 150px;
+}
+
+.underline{
+    color: #000000;
+}
 
 
