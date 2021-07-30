@@ -340,10 +340,59 @@ body{
 
 .boost{
     background-color:#FFFFFF ;
+    padding-top: 154px;
+    padding-bottom: 142px;
 }
 
 .tenfold{
     width: 1287px;
     line-height: 60px;
     font-size: 50px;
+    margin-bottom: 75px;
+}
+
+.content-boost{
+    align-items: flex-start;
+}
+
+.man{
+    margin-left: 0;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 34px;
+}
+
+.pop{
+    margin-left: 0;
+    margin-bottom: 49px;
+}
+
+.up{
+    text-align: left;
+    width: 390px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.excerpt{
+    text-decoration: underline;
+    width: 109px;
+    font-weight: 400;
+}
+
+.smoke{
+    margin-bottom: 84px;
+}
+
+.splash{
+    margin-bottom: 67px;
+}
+
+.trans{
+    width: 166px;
+}
+
+.icebox{
+    background-color: #C9E8F2;
 }
