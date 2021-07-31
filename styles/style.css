@@ -73,7 +73,7 @@ body{
 
 .header{
     display: flex;
-    width: 1330px;
+    width: 1460px;
     justify-content:space-between;
     border-bottom: 1px solid #EFEFEF;
     margin-left: auto;
@@ -82,7 +82,7 @@ body{
 }
 
 .box{
-    width: 1330px;
+    width: 1290px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -156,9 +156,9 @@ body{
 
 .icon{
     text-decoration: none;
-    margin-right: 103px;
+    margin-right: 78px;
     display: block;
-    width: 16.6%;
+    width: 150px;
 }
 
 .icon:last-child{
@@ -284,9 +284,10 @@ body{
     justify-content: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 33.3%;
+    width: 400px;
     margin-bottom: 75px;
     align-items: center;
+    margin-right: 30px;
 }
 
 
@@ -395,4 +396,229 @@ body{
 
 .icebox{
     background-color: #C9E8F2;
+    padding-top: 63px;
+    padding-bottom: 105px;
+    margin-bottom: 0;
+}
+
+.ux{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    width: 895px;
+}
+
+.cooper{
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 23px;
+    padding-bottom: 7px;
+}
+
+.no{
+    padding-bottom: 0;
+}
+
+.lol{
+    margin-left: 85px;
+}
+
+.brown{
+    padding-top: 90px;
+    padding-bottom: 88px;
+    background-color: #DABC98;
+    margin-bottom: 169px;
+}
+
+.soft{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    width: 461px;
+    margin-left: 67px;
+    padding-top: 27px;
+}
+
+.border{
+    width: 704px;
+    padding-right: 105px;
+    border-right: 1px solid black;
+}
+
+.star{
+    width: 128px;
+    height: 116px;
+    margin-right: 70px;
+    margin-left: 71px;
+    padding-top: 30px;
+}
+
+.rockstar{
+    width: 150px;
+    height: 116px;
+    padding-top: 30px;
+}
+
+.int{
+    width: 791px;
+    font-size: 65px;
+    line-height: 75px;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.routine{
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 400;
+    width: 539px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 25px;
+}
+
+.bird{
+    margin-left: 133px;
+    margin-right: 134px;
+    margin-bottom: 32px;
+}
+
+.see{
+    width: 193px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 162px;
+}
+
+.orange{
+    padding-top: 119px;
+    padding-bottom: 182px;
+    margin-bottom: 0;
+}
+
+.loco{
+    width: 784px;
+    margin-bottom: 29px;
+}
+
+.page-free{
+    font-size: 20px;
+    width: 438px;
+    margin-bottom: 54px;
+}
+
+.for-free{
+    background-color: black;
+    width: 160px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 60px;
+    height: 60px;
+}
+
+.box-special{
+    width: 1308px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.ship{
+    background-color: #EEEEEE;
+    padding-top: 92px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.skill{
+    font-size: 40px;
+    margin-left: 0;
+    width: 260px;
+    padding-top: 0;
+    padding-bottom: 28px;
+}
+
+.simple{
+    margin-bottom: 31px;
+}
+
+.global{
+    margin-bottom: 11px;
+}
+
+.down{
+    margin-bottom: 15px;
+    width: 294px;
+}
+
+.end{
+    font-weight: 600;
+    text-decoration: none;
+    width: 108px;
+}
+
+.link-studies{
+    width: 109px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.item-studies{
+    margin-bottom: 15px;
+}
+
+.marked{
+    margin-bottom: 21px;
+}
+
+.marked-link{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.case{
+    width: 375px;
+    margin-right: 71px;
+}
+
+.nav-studies{
+    width: 190px;
+    margin-right: 25px;
+}
+
+.footer{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.awkward{
+    border:none;
+}
+
+.flow{
+    width: 305px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+}
+
+.lise{
+    width: 91px;
+    height: 21px;
+    margin-right: 14px;
+}
+
+.copyright{
+    width: 110px;
+    margin-left: 704px;
 }
