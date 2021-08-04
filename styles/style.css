@@ -1,17 +1,46 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('subset-GraphikLCG-Regular.eot');
+    src: url('subset-GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('subset-GraphikLCG-Regular.woff2') format('woff2'),
+        url('subset-GraphikLCG-Regular.woff') format('woff'),
+        url('subset-GraphikLCG-Regular.ttf') format('truetype'),
+        url('subset-GraphikLCG-Regular.svg#GraphikLCG-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('subset-GraphikLCG-Semibold.eot');
+    src: url('subset-GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('subset-GraphikLCG-Semibold.woff2') format('woff2'),
+        url('subset-GraphikLCG-Semibold.woff') format('woff'),
+        url('subset-GraphikLCG-Semibold.ttf') format('truetype'),
+        url('subset-GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 body{
-    font-family: Graphik LC TT,sans-serif;
+    font-family: "Graphik LC TT",sans-serif;
     box-sizing: border-box;
 }
+
 .link{
-    margin-right: 42px;
     text-decoration: none;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     color:#000000;
+
 }
 
-.link :last-child{
+.item:last-child{
     margin-right: 0;
 }
 
@@ -22,6 +51,7 @@ body{
 .item{
     padding-top: 39px;
     padding-bottom: 36px;
+    margin-right: 42px;
 }
 
 .menu{
@@ -75,9 +105,12 @@ body{
     display: flex;
     width: 1460px;
     justify-content:space-between;
-    border-bottom: 1px solid #EFEFEF;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header-border{
+    border-bottom: 1px solid #EFEFEF;
     margin-bottom: 129px;
 }
 
@@ -135,6 +168,7 @@ body{
 .flex{
     display: flex;
     padding-bottom: 172px;
+    align-items: center;
 }
 
 .container{
@@ -147,7 +181,7 @@ body{
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
-    width: 720px;
+    width: 100%;
     padding-top: 108px;
     padding-bottom: 70px;
     margin-right: auto;
@@ -167,6 +201,7 @@ body{
 
 .partners{
     display: flex;
+    align-items: center;
 }
 
 .virgin{
@@ -176,7 +211,6 @@ body{
 .control{
     margin-left: 0;
     margin-right: 0;
-    width: 493px;
     padding-top: 241px;
     padding-bottom: 30px;
 }
@@ -216,7 +250,6 @@ body{
 }
 
 .time{
-    width: 379px;
     padding-top: 0;
 }
 
@@ -229,9 +262,6 @@ body{
     margin-bottom: 250px;
 }
 
-.ensure{
-    width: 397px;
-}
 
 .use{
     width: 520px;
@@ -301,10 +331,9 @@ body{
 .web{
     font-size: 25px;
     line-height: 35px;
-    width: 120px;
+    width: 100%;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 .any{
@@ -317,10 +346,6 @@ body{
 .stock{
     display: flex;
     flex-wrap: wrap;
-}
-
-.mobile{
-    width: 165px;
 }
 
 .games{
@@ -342,7 +367,7 @@ body{
 .boost{
     background-color:#FFFFFF ;
     padding-top: 154px;
-    padding-bottom: 142px;
+    padding-bottom: 232px;
 }
 
 .tenfold{
@@ -361,6 +386,8 @@ body{
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 34px;
+    text-align: left;
+    width: 100%;
 }
 
 .pop{
@@ -621,4 +648,13 @@ body{
 .copyright{
     width: 110px;
     margin-left: 704px;
+}
+
+.shit{
+    margin-right: 138px;
+}
+
+.tool-width{
+    width: 720px;
+    text-align: center;
 }
