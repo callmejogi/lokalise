@@ -974,9 +974,113 @@ body{
     }
 
     .see{
-        margin-bottom: 0;
+        margin-bottom: 30px;
     }
-}
+
+    .bot{
+        padding-bottom: 30px;
+    }
+
+    .orange{
+        padding-top: 50px;
+    }
+
+    .loco{
+        margin-bottom: 30px;
+    }
+
+    .page-free{
+        margin-bottom: 30px;
+    }
+
+    .box-special{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-studies{
+        width: 100%;
+    }
+
+    .marked-link{
+        width: 100%;
+        margin-right: 0;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .case{
+        margin-bottom: 50px;
+    }
+
+    .ship{
+        padding-top: 30px;
+    }
+
+    .skill{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .link-studies{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .simple{
+        width: auto;
+    }
+
+    .headers{
+        width: 50%;
+    }
+
+    .nav-studies{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .global{
+        width: auto;
+    }
+
+    .copyright{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .awkward{
+        align-items: flex-start;
+    }
+
+    .push{
+        width: auto;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+
+    .lise{
+        width: auto;
+        text-align: left;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .rek{
+        width: 100%;
+    }
+
+    .footer{
+        padding-bottom: 30px;
+    }
+} 
 
 @media  (max-width: 767px) {
     .menu{
@@ -1067,6 +1171,16 @@ body{
     .routine{
         font-size: 18px;
         line-height: 25px;
+    }
+
+    .article{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .web{
+        font-size: 22px;
+        line-height: 27px;
     }
 
 }
