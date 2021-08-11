@@ -553,7 +553,7 @@ body{
 }
 
 .box-special{
-    width: 1308px;
+    width: 1290px;
     margin-right: auto;
     margin-left: auto;
     border-bottom: 1px solid black;
@@ -1079,6 +1079,18 @@ body{
 
     .footer{
         padding-bottom: 30px;
+    }
+
+    .loco{
+        width: 100%;
+    }
+
+    .page-free{
+        width: 100%;
+    }
+
+    .box-special{
+        width: 100%;
     }
 } 
 
